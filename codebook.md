@@ -5,8 +5,7 @@ a textfile 'UCI_HAR_data.txt' is created that contains a 180x68 data set.
 
 The original data were collected from accelerometers from the Samsung Galaxy S smartphone. A full description is available at this site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-A description of the analysis steps performed by 'run_analysis.R' can be found in the README. 
-Steps are also commented in the script.
+
 
 ## Variables in UCI_HAR_data.txt
 
@@ -21,6 +20,7 @@ Steps are also commented in the script.
 
 The following 66 variables contain the mean of a feature vector grouped by subject and activity. 
 
+
 As feature only those were taken into account that contain measurements of the mean or standard deviation. A description of all features can be found in the 'feature_info.txt' provided with the original data in the zipfile. 
   
  A few changes were made to the names of the features:  
@@ -32,3 +32,8 @@ As feature only those were taken into account that contain measurements of the m
   * std became Std  
   * mean became Mean  
   * the repetition of Body in a few features was deleted  
+  
+## Transformations
+A description of the analysis steps performed by 'run_analysis.R' can be found in the README. 
+Steps are also commented in the script.  
+In summary, the original data is merged, then filtered for the variable features that contain a mean or standard deviation measurement, descriptive names are added and in the end, the mean of each feature for each subject and each activity is calculated. 
