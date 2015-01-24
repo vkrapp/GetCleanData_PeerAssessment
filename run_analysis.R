@@ -12,8 +12,8 @@
 folder = "UCI HAR Dataset"
 
 # Load and if neccessary install needed packages
-if(!require("plyr")) 
-    install.packages("plyr")
+if(!require("dplyr")) 
+    install.packages("dplyr")
 library(dplyr)
 
 
