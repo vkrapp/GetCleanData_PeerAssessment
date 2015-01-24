@@ -1,7 +1,6 @@
 # Code Book
 
-When running 'run_analysis.R' on the data obtained from this site: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip,  
-a textfile 'UCI_HAR_data.txt' is created that contains a 180x68 data set.
+When running 'run_analysis.R' on the data obtained from this site: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, a textfile 'UCI_HAR_data.txt' is created that contains a 180x68 data set.
 
 The original data were collected from accelerometers from the Samsung Galaxy S smartphone. A full description is available at this site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
